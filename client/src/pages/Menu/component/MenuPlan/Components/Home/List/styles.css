@@ -1,0 +1,27 @@
+.list-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .list-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

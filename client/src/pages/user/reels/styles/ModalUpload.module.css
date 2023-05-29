@@ -1,0 +1,63 @@
+
+
+.modalBtn{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 500px;
+    transition: .3s;
+}
+
+.modalBtn:hover{
+    color: #fff;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.btnCancel{
+    border: 3px solid theme('colors.teal');
+}
+
+.btnCheck{
+    border: 3px solid theme('colors.pink');
+}
+
+.btnCancel:hover{
+    background-color: theme('colors.teal')
+}
+
+.btnCheck:hover{
+    border: none;
+    background-color: theme('colors.pink')
+}
+
+#inputHashtags:focus, #inputTitle:focus{
+    outline: none;
+}
+
+#inputHashtags, #inputTitle{
+    padding: 8px 0;
+    height: 56px;
+}
+
+.inputfile{
+    border-radius: 500px;
+    aspect-ratio: 1/1;
+    width: 40px;
+    cursor: pointer;
+    background-color: theme('colors.maingrey');
+    color: #fff;
+    transition: .3s;
+    opacity: .4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfile:hover{
+    background-color: theme('colors.maingrey');
+    color: #fff;
+    opacity: 1;
+}
+
+.storyFile:focus{
+    outline: none;
+}

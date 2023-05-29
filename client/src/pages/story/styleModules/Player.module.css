@@ -1,0 +1,97 @@
+.hide{
+    display: none;
+}
+
+
+.imgBox{
+    border-radius: 500px;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.closeBtn{
+    border-radius: 500px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    cursor: pointer;
+    background-color: theme('colors.maingrey');
+    color: #fff;
+    transition: .3s;
+    opacity: .4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+}
+
+.nextBtn, .prevBtn{
+    border-radius: 500px;
+    aspect-ratio: 1/1;
+    width: 40px;
+    cursor: pointer;
+    background-color: theme('colors.maingrey');
+    color: #fff;
+    transition: .3s;
+    opacity: .4;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+}
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.nextBtn:hover, .prevBtn:hover, .closeBtn:hover{
+    background-color: theme('colors.maingrey');
+    color: #fff;
+    opacity: 1;
+}
+
+.storyTag:hover{
+    color: theme('colors.maingrey');
+    cursor: pointer;
+}
+
+.storyView{
+    height: 100%;
+}
+
+.video{
+    height: 100%;
+}
+
+.storyInfo{
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .rowContainer{
+        position: relative;
+    }
+
+    .storyInfo{
+        position: absolute;
+        bottom: 0;
+        height: 50%;
+        background-color: #fff;
+        padding-right: 1rem;
+    }
+
+    .video{
+        height: 50%;
+    }
+}

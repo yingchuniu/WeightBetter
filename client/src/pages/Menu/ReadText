@@ -1,0 +1,19 @@
+設定名稱首字母大寫 TestCard
+function名稱跟文件夾名稱一樣
+
+
+<-------sx={{}}-------->
+m	margin
+mt	margin-top
+mr	margin-right
+mb	margin-bottom
+ml	margin-left
+mx	margin-left, margin-right
+my	margin-top, margin-bottom
+p	padding
+pt	padding-top
+pr	padding-right
+pb	padding-bottom
+pl	padding-left
+px	padding-left, padding-right
+py	padding-top, padding-bottom

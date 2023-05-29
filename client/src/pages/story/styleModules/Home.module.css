@@ -1,0 +1,29 @@
+
+
+.searchSection .searchBox{
+    border-radius: 200px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    min-width: 250px;
+}
+
+.searchSection .searchBox .searchInput{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 80%;
+    color: #000;
+    font-size: 1rem;
+}
+
+.searchSection .searchBox .searchInput:focus{
+    outline: none;
+}
+
+.searchSection .searchBox .searchInput::placeholder {
+    color: #aaa;
+}
+
+
+

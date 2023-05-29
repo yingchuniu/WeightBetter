@@ -1,0 +1,23 @@
+.btnUpload{
+    border-radius: 500px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    cursor: pointer;
+    background-color: theme('colors.mainyellow');
+    color: #fff;
+    transition: .3s;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+}
+
+.btnUpload:hover{
+    background-color: theme('colors.mainyellow');
+    color: #fff;
+    opacity: 1;
+}

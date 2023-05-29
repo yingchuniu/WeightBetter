@@ -1,0 +1,78 @@
+.homeStoryWrapper{
+    
+}
+
+/* .mySwiper{
+    width: 90%;
+    height: 100%;
+    --swiper-pagination-bottom: 40px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+style={{
+    width: '90%',
+    height: '100%',
+    '--swiper-pagination-bottom': '40px',
+    paddingTop: '50px',
+    paddingRight: '10px',
+    paddingLeft: '10px',
+  }} */
+
+.top{
+    height: 40%;
+    /* background-color: lightgoldenrodyellow; */
+    overflow: hidden;
+    position: relative;
+    /* background-color: rgb(207, 240, 239); */
+}
+
+.bottom{
+    height: 60%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+}
+
+.imgset{
+    transform: rotate(-10deg) translateY(-170px);
+    display: flex;
+    margin-bottom: 20px;
+    height: 180px;
+}
+
+
+.imgBox{
+    width: 280px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.imgset2 .imgBox{
+    transform: translateX(-2500px);
+}
+
+.title{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3000;
+    background-color: rgba(240, 240, 240, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

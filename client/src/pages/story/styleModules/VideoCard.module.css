@@ -1,0 +1,37 @@
+.videoCard{
+    transition: 0.3s;
+}
+
+.videoCard:hover{
+    transform: scale(1.1);
+}
+
+/* .storyInfo{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+} */
+
+.hide{
+    display: none;
+}
+
+.imgBox{
+    /* opacity: .3; */
+}
+
+.opacityLow{
+    opacity: .5;
+}
+
+.deleteBtn{
+    transition: .2s;
+    color: theme('colors.main');
+}
+
+.deleteBtn:hover{
+    transform: scale(1.2);
+}
+
